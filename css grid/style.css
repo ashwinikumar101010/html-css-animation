@@ -1,0 +1,23 @@
+.container{
+    height:600px;
+    width:500px;
+    background-color:white;
+    border:solid red;
+    display:grid;
+   /* grid-template-columns:auto auto auto auto ;
+   /* grid-template-rows:repeat(3,1fr);*/
+   row-gap:50px;
+   column-gap:60px;
+    
+}
+.item{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border:2px solid black;
+    
+}.item1{
+    grid-column-start:1;
+    grid-column-end:3;
+    background-color:red;
+}

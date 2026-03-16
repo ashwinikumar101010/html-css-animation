@@ -1,0 +1,83 @@
+a{
+    color:black;
+    size:50px;
+}
+span{
+    color:red;
+}
+.card1{
+    
+    height:500px;
+    width:400px;
+    border:2px solid black;
+    border-radius:15%;
+     display:inline-block;
+     padding:5%;
+     margin-right:100px;
+     background-color:rgba(219, 219, 221, 0.704);
+}
+
+.pet{
+    height:300px;
+    width:400px;
+}
+
+
+
+.card2{
+    
+    height:500px;
+    width:400px;
+    border:2px solid black;
+    border-radius:15%;
+    display:inline-block;
+     padding:5%;
+     margin-left:100px;
+     background-color:rgba(219, 219, 221, 0.704);
+}
+h2{
+    text-align:right;
+    width:50%;
+}
+h3{
+    text-align:right;
+    width:50%;
+}
+ h2,h3{
+        animation:colorchange 3s infinite;
+      }
+      @keyframes colorchange{
+        from{font-size:20px;}
+        to{font-size:40px;}
+      }
+      .card1{
+  position: relative;
+  animation: moveRight 4s infinite alternate;
+}
+
+.card2{
+  position: relative;
+  animation: moveLeft 4s infinite alternate;
+}
+
+@keyframes moveRight{
+  from{
+    left:0px;
+  }
+  to{
+    left:1000px;
+  }
+}
+
+@keyframes moveLeft{
+  from{
+    right:0px;
+  }
+  to{
+    right:1000px;
+  }
+}
+      
+
+
+
